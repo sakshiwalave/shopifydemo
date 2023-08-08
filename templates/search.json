@@ -1,1 +1,43 @@
-{"sections":{"main":{"type":"main-search","settings":{"columns_desktop":4,"image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_filtering":true,"filter_type":"horizontal","enable_sorting":true,"article_show_date":true,"article_show_author":false,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0b233cca-873f-451a-b047-961d0d752a6b": {
+      "type": "apps",
+      "blocks": {
+        "24d5536e-1a16-4cdf-9be4-e732a28ad861": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/product-filter\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "24d5536e-1a16-4cdf-9be4-e732a28ad861"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "0b233cca-873f-451a-b047-961d0d752a6b",
+    "main"
+  ],
+  "wrapper": ".boost-sd__product-filter-fallback"
+}
